@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFCECE;
+}
+.container{
+    background-color:black;
+    color: white;
+    min-height: 72vh;
+    font-family: 'Cinzel', serif;
+    width: 70%;
+    margin: 10px auto;
+    display:flex;
+    border-radius: 12px;
+    padding: 34px;
+    background-image:url(bg.jpg);
+    background-size: 960px;
+}
+
+.bottom{
+    position: sticky;
+   height: 100px; 
+   background-color:#060047;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+#myProgressBar{
+    width: 75vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 70px;
+}
+.icons{
+    margin-top:12px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 16px;
+}
+.songItem img{
+ width: 45px;
+ margin: 0 20px;
+ border-radius: 8px;
+}
+.timestamp{
+    margin: 0 25px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 14vw;
+    margin-top: 36px;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity .04s ease-in;
+    margin: -5px 6px;
+}
+
+@media screen and (max-width: 970px) 
+{
+   .icons {
+   margin-top: 32px;
+   }
+   .songInfo {
+    margin-top: -12px;
+   }
+   .songItem img {
+    width: 30px;
+    margin: 0px 10px;
+   }
+   .songName {
+    font-size:13px;
+   }
+   .timestamp{
+    margin: 0px 15px;
+   }
+
+   }
