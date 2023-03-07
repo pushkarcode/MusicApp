@@ -10,7 +10,7 @@ body{
 }
 .container{
     background-color:black;
-    color: white;
+    color: peachpuff;
     min-height: 72vh;
     font-family: 'Cinzel', serif;
     width: 70%;
@@ -48,7 +48,7 @@ body{
 .songItem{
   height: 50px;
   display: flex;
-  background-color: white;
+  background-color:#CBF1F5;
   color: black;
   margin: 12px 0;
   justify-content: space-between;
@@ -101,3 +101,4 @@ body{
    }
 
    }
+   
